@@ -1,0 +1,127 @@
+@import "variables";
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+  padding-left: 25%;
+}
+
+.logo > img {
+  width: 150px;
+}
+
+.bg-light {
+  height: 20vh;
+}
+
+.navbar-toggler {
+  background-color: #1D3D7B;
+  border-radius: 1px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.slider {
+  margin-top: 20vh;
+  height: 80vh;
+  background: rgba(0, 0, 0, 0.5) url("../img/slider-01.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.slider > h3 {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.slider > h6 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding-top: 4vh;
+}
+
+.lema-slider {
+  margin-top: 4vh;
+  background-color: #1D3D7B;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.lema-slider > p {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.campos-colapsable {
+  background-color: #1D3D7B;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+/* -------------- ACORDION -------------- */
+.accordion-item {
+  background-color: #1D3D7B;
+  border: 1px solid #1D3D7B;
+}
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  background-color: #1D3D7B;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.accordion-header {
+  border-bottom: 1px solid #ffffff;
+}
+
+.collapse {
+  background-color: #ffffff;
+}
+
+.accordion-button::after {
+  background-image: $accordion-button-icon !important;
+}
+
+.accordion-body {
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.accordion-body > h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.accordion-body > img {
+  margin-bottom: 30px;
+}
+
+.accordion-body>ul>li{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
