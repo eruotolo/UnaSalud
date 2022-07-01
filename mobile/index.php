@@ -39,23 +39,26 @@
                     aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+
+            <div class="offcanvas offcanvas-end toogle-dark" tabindex="-1" id="offcanvasNavbar"
                  aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <button type="button" class="close-btn" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="../mobile/index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="../mobile/biblioteca.php">Biblioteca</a>
                         </li>
                     </ul>
+                    <a class="icono-redes icono-insta" href="https://www.instagram.com/unasalud_chile_argentina/" target="_blank"><img src="assets/img/icono-instagram.svg" alt="Instagram"></a>
+                    <a class="icono-redes" href="https://www.youtube.com/channel/UCQ7HHoDed24QGu0ROHwd85w" target="_blank"><img src="assets/img/icono-youtube.svg" alt="Youtube"></a>
                 </div>
             </div>
+
         </div>
     </nav>
 </section>
@@ -153,13 +156,123 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
     <div class="video-player">
         <iframe width="100%" height="550" src="https://www.youtube.com/embed/Z_srrmbPAYw" title="Charla"> </iframe>
+    </div>
+
+    <div class="team-mobile">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 datos-equipo">
+                    <h3>Equipo</h3>
+                    <hr>
+                    <h5>INSTITUCIÓN EJECUTORA</h5>
+                    <img src="assets/img/team-uss-logo.svg" alt="USS" class="img-fluid img-uss">
+                    <img src="assets/img/team-una-salud-logo.svg" alt="Una Salud" class="img-fluid img-una">
+                    <br>
+                    <h5>INSTITUCIÓN APORTANTE</h5>
+                    <img src="assets/img/team-agcid.svg" alt="AGCID" class="img-fluid img-agcid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="direccion">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 direcc-personas">
+                    <h5>DIRECCIÓN DE PROYECTO</h5>
+
+                    <h4>Dr. Daniel Medina Salas</h4>
+                    <h6>Académico Investigador</h6>
+                    <p>Facultad de Ciencias de la Naturaleza,<br>
+                        Universidad San Sebastián,<br>
+                        Sede De la Patagonia, Chile.</p>
+                    <p class="person-email"><a href="mailto:angelica.guerrero@uss.cl" ><i class="fa fa-envelope-o" aria-hidden="true"></i> angelica.guerrero@uss.cl</a></p>
+
+
+                    <h4>M. Sc. Paula Andrea Páez</h4>
+
+                    <p>Universidad Nacional de Río Negro,<br>
+                        Villa Regina - Río Negro, Argentina.</p>
+                    <p class="person-email"><a href="mailto:ppaez@unrn.edu.ar"><i class="fa fa-envelope-o" aria-hidden="true"></i> ppaez@unrn.edu.ar</a></p>
+
+                    <h5>COORDINACIÓN CHILE</h5>
+
+                    <h4>Dr. Javier Campanini</h4>
+                    <h6>Académico Investigador</h6>
+                    <p>Facultad de Medicina y Ciencia,<br>
+                        Universidad San Sebastián,<br>
+                        Sede De la Patagonia, Chile.</p>
+                    <p class="person-email"><a href="mailto:javier.campanini@uss.cl"><i class="fa fa-envelope-o" aria-hidden="true"></i> javier.campanini@uss.cl</a></p>
+
+                    <h4>Nta. MSc. Mª Consuelo Díaz</h4>
+                    <h6>Docente línea curricular clínica,<br>
+                        carrera Nutrición y Dietética,</h6>
+                    <p>Facultad de Ciencias para el Cuidado<br>
+                        de la Salud, Universidad San Sebastián,<br>
+                        Sede De la Patagonia, Chile.</p>
+                    <p class="person-email"><a href="mailto:maria.diaz@uss.cl "><i class="fa fa-envelope-o" aria-hidden="true"></i> maria.diaz@uss.cl </a></p>
+
+                    <h5>COORDINADORA ARGENTINA</h5>
+
+                    <h4>Ing. Marcela Viviana Filippi</h4>
+                    <h6>Docente Investigadora</h6>
+                    <p>Universidad Nacional de Río Negro<br>
+                        en la Escuela de producción<br>
+                        Tecnología y Medio Ambiente.</p>
+                    <p class="person-email"><a href="mailto:mfilippi@unrn.edu.ar"><i class="fa fa-envelope-o" aria-hidden="true"></i> mfilippi@unrn.edu.ar</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 sub-pie">
+                    <h5>CONTACTO</h5>
+                    <p class="pie-email"><a href="mailto:unasalud@uss.cl"><i class="fa fa-envelope-o" aria-hidden="true"></i> unasalud@uss.cl</a></p>
+                    <hr>
+                </div>
+
+                <div class="col-7 sub-pie img-right">
+                    <img src="assets/img/corporaciones/uss.svg" alt="USS" class="img-fluid uss-img">
+                </div>
+                <div class="col-5 sub-pie">
+                    <img src="assets/img/corporaciones/vcm.svg" alt="vcm" class="img-fluid vcm-img">
+                </div>
+
+                <div class="col-7 sub-pie img-right">
+                    <img src="assets/img/corporaciones/u-rio-negro.svg" alt="URN" class="img-fluid urn-img">
+                </div>
+                <div class="col-5 sub-pie">
+                    <img src="assets/img/corporaciones/massalud.svg" alt="Más Salud" class="img-fluid ms-img">
+                </div>
+
+                <div class="col-7 sub-pie img-right">
+                    <img src="assets/img/corporaciones/masazul.svg" alt="Más Azul" class="img-fluid ma-img">
+                </div>
+                <div class="col-5 sub-pie">
+                    <img src="assets/img/corporaciones/agcid.svg" alt="Agcid" class="img-fluid agc-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 footer-copy">
+                    <p>Desarrollado por <a href="https://indaga.me" target="_blank">Indaga</a></p>
+                </div>
+            </div>
+        </div>
     </div>
 
 </section>

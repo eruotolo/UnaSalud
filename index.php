@@ -3,11 +3,19 @@
 <html lang="en">
 
 <head>
+    <!-- DETECTA MOBILE -->
+    <script type="text/javascript">
+        var dispositivo = navigator.userAgent.toLowerCase();
+        if (dispositivo.search(/iphone|ipod|ipad|android/) > -1) {
+            document.location = "mobile/index.php";
+        }
+    </script>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Una salud - Inicio</title>
+    <title>Una Salud</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.svg" />
 
     <!-- Fuente Open Sans -->

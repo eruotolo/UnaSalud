@@ -21352,7 +21352,7 @@ label,
 }
 
 .bg-gradient-primary {
-  background-image: linear-gradient(310deg, #7928CA 0%, #FF0080 100%);
+  background-image: linear-gradient(310deg, #1d3d7b 40%, #199176 100%);
 }
 
 .bg-gradient-secondary {
@@ -26272,4 +26272,7 @@ pre[class*="language-"] {
   }
 }
 
+.perfil-imagen{
+  margin-top: -50px;
+}
 /*# sourceMappingURL=dashboard-free.css.map */

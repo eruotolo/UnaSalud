@@ -1,8 +1,8 @@
 <?php
 
 try{
-
-	$base=new PDO("mysql:host=localhost;dbname=dbwctlmnbn81gg","uhpua9t5w2jaf","injjgxehgbgy");
+    /*$base=new PDO("mysql:host=localhost;dbname=dbwctlmnbn81gg","uhpua9t5w2jaf","injjgxehgbgy");*/
+	$base=new PDO("mysql:host=localhost;dbname=dev-unasalud-01","root","root");
 	$base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	$sql="SELECT * FROM usuarios WHERE email= :correo AND password=:clave AND is_activo = 1";
 

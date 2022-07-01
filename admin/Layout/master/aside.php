@@ -28,7 +28,7 @@
     $_SESSION["admin"] = "OK";
   }
   ?>
-  <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
+  <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main" style="height: auto">
     <ul class="navbar-nav">
       <?php
       if (@$_SESSION["admin"] == "OK") {
